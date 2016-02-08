@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration debug="true">
+
+    <appender name="PASS_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_PASS</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} PASS: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="WARNING_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_WARNING</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} WARNING: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INFO_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_INFO</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} INFO: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FAIL_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_FAIL</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} FAIL: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ERROR</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ERROR: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ENV_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ENV</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ENVIRONMENT: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DEBUG_STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_DEBUG</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} DEBUG: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="PASS_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_PASS</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} PASS: %msg%n</Pattern>
+        </encoder>
+    </appender>
+    <appender name="WARNING_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_WARNING</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} WARNING: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INFO_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_INFO</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} INFO: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FAIL_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_FAIL</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} FAIL: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ERROR</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ERROR: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ENV_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ENV</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ENVIRONMENT: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DEBUG_Log" class="com.mede.logging.CustomAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_DEBUG</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} DEBUG: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="PASS_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_PASS</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} PASS: %msg%n</Pattern>
+        </encoder>
+    </appender>
+    <appender name="WARNING_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_WARNING</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} WARNING: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INFO_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_INFO</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} INFO: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FAIL_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_FAIL</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} FAIL: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ERROR</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ERROR: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ENV_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_ENV</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} ENVIRONMENT: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DEBUG_REPORT" class="com.mede.logging.CustomReportAppender">
+
+        <filter class="com.mede.logging.MarkerFilter">
+            <marker>MARKER_DEBUG</marker>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} DEBUG: %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="PASS_STDOUT"/>
+        <appender-ref ref="INFO_STDOUT"/>
+        <appender-ref ref="FAIL_STDOUT"/>
+        <appender-ref ref="ERROR_STDOUT"/>
+        <appender-ref ref="ENV_STDOUT"/>
+        <appender-ref ref="DEBUG_STDOUT"/>
+        <appender-ref ref="WARNING_STDOUT"/>
+        <appender-ref ref="PASS_Log"/>
+        <appender-ref ref="INFO_Log"/>
+        <appender-ref ref="FAIL_Log"/>
+        <appender-ref ref="ERROR_Log"/>
+        <appender-ref ref="ENV_Log"/>
+        <appender-ref ref="DEBUG_Log"/>
+        <appender-ref ref="WARNING_Log"/>
+
+        <appender-ref ref="PASS_REPORT"/>
+        <appender-ref ref="INFO_REPORT"/>
+        <appender-ref ref="FAIL_REPORT"/>
+        <appender-ref ref="ERROR_REPORT"/>
+        <appender-ref ref="ENV_REPORT"/>
+        <appender-ref ref="DEBUG_REPORT"/>
+        <appender-ref ref="WARNING_REPORT"/>
+    </root>
+
+</configuration>
