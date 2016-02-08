@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+
+	<test name="Test script for project execution start time">
+		<classes>
+			<class name="com.equal.tests.StartExecution" />
+		</classes>
+	</test>
+		
+	<test name="Sample Test script">
+		<classes>
+			<class name="com.equal.tests.Sample1"/>
+		</classes>
+	</test>
+	
+			
+	<test name="Test script for project execution end time">
+		<classes>
+			<class name="com.equal.tests.EndExecution" />
+		</classes>
+	</test>
+
+</suite>
