@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\Salil\Smoke1\.metadata\.plugins\org.eclipse.jdt.core
+2561785782.index

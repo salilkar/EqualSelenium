@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test script for project execution start time">
+    <classes>
+      <class name="com.equal.tests.StartExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution start time -->
+  <test name="Sample Test script">
+    <classes>
+      <class name="com.equal.tests.Sample1"/>
+    </classes>
+  </test> <!-- Sample Test script -->
+  <test name="Test script for project execution end time">
+    <classes>
+      <class name="com.equal.tests.EndExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution end time -->
+</suite> <!-- Failed suite [Suite] -->

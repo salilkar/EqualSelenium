@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start BeforeSuite create user</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: +++++++++++++++++++++++++++++++++++++++++Sample1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Custom report is created</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: New report created</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: startUp</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: startUp</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start BEFORE Method</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: STEP 2</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All cookies were deleted</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Finish BEFORE Class</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: beforeTest</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: beforeTest</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: test</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Login page -logging in</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<script type='text/javascript'>$(document).ready(function(){$('.debug').hide();$('.reporter-method-div').first().before('<input type="checkbox" class="showDebug"/><label for="showDebug">Show debug details</label>');if(typeof(imagePreview) == "function"){imagePreview();}$('.reporter-method-output-div').hide();$('.showDebug').click( function() {debugOption();});$('.reporter-method-div').click( function() {$(this).find('.reporter-method-output-div').slideToggle('slow');debugOption();});});this.debugOption = function() { $('.showDebug').is(':checked') ? $('.debug').slideDown('slow') : $('.debug').slideUp('slow');};</script>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Clear element</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="other"><b><font color = "black"> INFO: Send text "salil.kar" to "userName" input on "Login Page Amalgam" page</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Clear element</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="other"><b><font color = "black"> INFO: Send text "Welcome@123" to "password" input on "Login Page Amalgam" page</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: we passed to:https://amalgamplus.techendeavour.com/</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="other"><b><font color = "black"> INFO: Click "login" button on "Login Page Amalgam" page</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Home page Verification</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Home page is present</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: test</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: afterTest</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: afterTest</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="other"><b><font color = "black"> INFO: Screenshot name =Sample11454655225857</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start AFTER CLASS</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All cookies were deleted</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Finish AFTER CLASS</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: tearDown</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: tearDown</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: +++++++++++++++++++++++++++++++++++++++++Sample1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: closeAllWindows</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Before closing all windows</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All Windows are Closed</font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: </font></b></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: closeAllWindows</font></b></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27936" started-at="2016-02-05T06:53:18Z" finished-at="2016-02-05T06:53:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27936" started-at="2016-02-05T06:53:18Z" finished-at="2016-02-05T06:53:46Z">
+      <class name="com.equal.tests.Sample1">
+        <test-method status="PASS" signature="createUsers()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="createUsers" is-config="true" duration-ms="360" started-at="2016-02-05T12:23:17Z" finished-at="2016-02-05T12:23:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start BeforeSuite create user</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method status="PASS" signature="printClassNameBeforeTest()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="printClassNameBeforeTest" is-config="true" duration-ms="8" started-at="2016-02-05T12:23:18Z" finished-at="2016-02-05T12:23:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: +++++++++++++++++++++++++++++++++++++++++Sample1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Custom report is created</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: New report created</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printClassNameBeforeTest -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="startUp" is-config="true" duration-ms="604" started-at="2016-02-05T12:23:18Z" finished-at="2016-02-05T12:23:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: startUp</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method)[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="start" is-config="true" duration-ms="16737" started-at="2016-02-05T12:23:18Z" finished-at="2016-02-05T12:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.equal.tests.Sample1.test(org.testng.ITestContext,com.equal.dto.UserDTO)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start BEFORE Method</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: STEP 2</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All cookies were deleted</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Finish BEFORE Class</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="beforeTest" is-config="true" duration-ms="2" started-at="2016-02-05T12:23:35Z" finished-at="2016-02-05T12:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.equal.tests.Sample1.test(org.testng.ITestContext,com.equal.dto.UserDTO)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: beforeTest</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(org.testng.ITestContext, com.equal.dto.UserDTO)[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="test" duration-ms="10205" started-at="2016-02-05T12:23:35Z" data-provider="firstUser" finished-at="2016-02-05T12:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27f9e982]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserDTO{testName='firstUser', userName='salil.kar', email='salil.kar@techendeavour.com', password='Welcome@123', confirmPassword='null', userID='null', timeZone='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Login page -logging in</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<script type='text/javascript'>$(document).ready(function(){$('.debug').hide();$('.reporter-method-div').first().before('<input type="checkbox" class="showDebug"/><label for="showDebug">Show debug details</label>');if(typeof(imagePreview) == "function"){imagePreview();}$('.reporter-method-output-div').hide();$('.showDebug').click( function() {debugOption();});$('.reporter-method-div').click( function() {$(this).find('.reporter-method-output-div').slideToggle('slow');debugOption();});});this.debugOption = function() { $('.showDebug').is(':checked') ? $('.debug').slideDown('slow') : $('.debug').slideUp('slow');};</script>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Clear element</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="other"><b><font color = "black"> INFO: Send text "salil.kar" to "userName" input on "Login Page Amalgam" page</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Clear element</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="other"><b><font color = "black"> INFO: Send text "Welcome@123" to "password" input on "Login Page Amalgam" page</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: we passed to:https://amalgamplus.techendeavour.com/</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="other"><b><font color = "black"> INFO: Click "login" button on "Login Page Amalgam" page</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Home page Verification</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Home page is present</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: test</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: START TEST CASE: afterTest</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="afterTest" is-config="true" duration-ms="4" started-at="2016-02-05T12:23:45Z" finished-at="2016-02-05T12:23:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: afterTest</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="end(org.testng.ITestResult)[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="end" is-config="true" duration-ms="339" started-at="2016-02-05T12:23:45Z" finished-at="2016-02-05T12:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=Sample1.test(org.testng.ITestContext, com.equal.dto.UserDTO)[pri:0, instance:com.equal.tests.Sample1@47eaca72] output=<div class="debug"><b><font color = "LightGray"> DEBUG: Login page -logging in</font></b></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="other"><b><font color = "black"> INFO: Screenshot name =Sample11454655225857</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Start AFTER CLASS</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All cookies were deleted</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Finish AFTER CLASS</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-02-05T12:23:46Z" finished-at="2016-02-05T12:23:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: tearDown</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="printClassName()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="printClassName" is-config="true" duration-ms="4" started-at="2016-02-05T12:23:46Z" finished-at="2016-02-05T12:23:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: +++++++++++++++++++++++++++++++++++++++++Sample1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printClassName -->
+        <test-method status="PASS" signature="closeAllWindows()[pri:0, instance:com.equal.tests.Sample1@47eaca72]" name="closeAllWindows" is-config="true" duration-ms="188" started-at="2016-02-05T12:23:46Z" finished-at="2016-02-05T12:23:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: Before closing all windows</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: All Windows are Closed</font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: </font></b></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="debug"><b><font color = "LightGray"> DEBUG: END TEST CASE: closeAllWindows</font></b></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeAllWindows -->
+      </class> <!-- com.equal.tests.Sample1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
